@@ -2,5 +2,74 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    
-</html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pizza Company</title> 
+</head>
+<body>  
+   
+    <header>
+        <h1><img src="pizza1.png" alt="pizza image" width="45" height="45">PIZZA ORDER FORM</h1>
+        <p>
+            <h4>Order your pizza online!! easily with all the options and get your pizza as you like at your doorstep</h4>
+        </p>
+    </header>
+
+    <main>
+        <form> 
+            <fieldset>
+
+                <legend>Customer Personal Information</legend>
+
+                <label for="Name">Name </label><br>
+                <input type="text" id="name"required><br>
+                <label for="Phone Number">Phone Number </label><br>
+                <input type="tel" id="phone" required><br>
+                <label for="Email"> Email </label><br>
+                <input type="email" id="email" required><br>
+                <label for="Address"> Delivery Address </label><br>
+                <input type="text" id="address" required><br>
+
+            </fieldset><br>
+
+            <fielset><br> <!--pizza customization--> 
+                <legend>Pizza Customization</legend>
+
+                <fieldset>
+
+                    <legend> Choose pizza shape: </legend>
+
+                    <input type="radio" id="round" name="shape" value ="round">
+                    <label for ="round"> Round </label> <br>
+                    <input type="radio" id="square" name="shape" value ="square">
+                    <label for ="square"> Square </label><br>
+
+
+                </fieldset>
+
+                <fieldset>  
+                    <legend> Choose your toppings: </legend>
+
+                    <input type="checkbox" id="pepperoni" name="topping" value ="pepperoni">
+                    <label for ="pepperoni"> Pepperoni </label> <br>
+                    <input type="checkbox" id="mushroom" name="topping" value ="mushrooms">
+                    <label for ="mushrooms">Mushrooms </label><br>
+                    <input type="checkbox" id="onions" name="topping" value ="onions">
+                    <label for ="onion">Onions </label><br>
+                    <input type="checkbox" id="green pepper" name="topping" value ="green pepper">
+                    <label for ="green pepper">Green pepper </label><br>
+                    <input type="checkbox" id="tomato" name="topping" value ="tomato">
+                    <label for ="tomato">Tomato </label><br>
+                    <input type="checkbox" id="olive" name="topping" value ="olive">
+                    <label for ="olive">Olive </label><br>
+                    <input type="checkbox" id="extra cheese" name="topping" value ="extra cheese">
+                    <label for ="extra cheese">Extra cheese </label><br>    
+
+                </fieldset>
+            
+
+               
+            
+            
+            
+            
+    </main>
