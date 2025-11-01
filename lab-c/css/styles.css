@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /* STEP 2: TYPE/ELEMENT Selector - Create a selector that targets the HTML element, with a rule that sets the background-color to 'lightskyblue' */
-#html { background-color: lightskyblue;
+html
+ { background-color: lightskyblue;
 }
 
 body {
