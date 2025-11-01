@@ -37,7 +37,7 @@ main aside {
 	background-image: url("../images/new.png") ;
 	background-repeat: no-repeat;
 	background-position: top right;
-	font-family:sans-serif
+	font-family:Arial, Helvetica, sans-serif
 }
 
 /* STEP 4: ID Selector - Create a selector that targets the specific element id (emailAddress) for the email form field on the home page, and set the font-weight property to 'bold' */
