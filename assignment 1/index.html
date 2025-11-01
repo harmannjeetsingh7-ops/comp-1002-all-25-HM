@@ -18,7 +18,7 @@
         <form> 
             <fieldset>
 
-                <legend>Customer Personal Information</legend>
+                <legend><strong>Personal Information</strong> </legend>
 
                 <label for="Name">Name </label><br>
                 <input type="text" id="name"required><br>
@@ -31,23 +31,26 @@
 
             </fieldset><br>
 
-            <fielset><br> <!--pizza customization--> 
-                <legend>Pizza Customization</legend>
+            <fieldset> 
+                <!--pizza customization--> 
+
+                <legend><strong> Pizza Customization</strong></legend>
 
                 <fieldset>
 
-                    <legend> Choose pizza shape: </legend>
+                     <legend> Choose pizza shape: </legend>
 
-                    <input type="radio" id="round" name="shape" value ="round">
-                    <label for ="round"> Round </label> <br>
-                    <input type="radio" id="square" name="shape" value ="square">
-                    <label for ="square"> Square </label><br>
+                     <input type="radio" id="round" name="shape" value ="round">
+                     <label for ="round"> Round </label> <br>
+                     <input type="radio" id="square" name="shape" value ="square">
+                     <label for ="square"> Square </label><br>
 
 
                 </fieldset>
 
+                <!--pizza topping level-->
                 <fieldset>  
-                    <legend> Choose your toppings: </legend>
+                    <legend>Choose toppings</legend>
 
                     <input type="checkbox" id="pepperoni" name="topping" value ="pepperoni">
                     <label for ="pepperoni"> Pepperoni </label> <br>
@@ -64,16 +67,77 @@
                     <input type="checkbox" id="extra cheese" name="topping" value ="extra cheese">
                     <label for ="extra cheese">Extra cheese </label><br> 
                     
-                </fieldset>
+                </fieldset><br>
               
-]
-                   
-             
-            
+<!--pizza spicy level -->
+            <fieldset>
+                <legend> Choose spice level: </legend>
 
-               
+                <input type="radio" id="mild" name="spice" value ="mild">
+                <label for ="mild"> Mild </label> <br>
+                <input type="radio" id="medium" name="spice" value ="medium">
+                <label for ="medium"> Medium </label><br>
+                <input type="radio" id="hot" name="spice" value ="hot">
+                <label for ="hot"> Hot </label><br>
+                   
+             </fieldset>
+
+                   
+             <!--crust of pizza-->
+                <fieldset>
+                        <label for="crust">Choose your crust type:</label><br>
+                        
+                        <select id="crust" name="crust">
+                            <option value="thin">Thin Crust</option>
+                            <option value="thick">Thick Crust</option>
+                            <option value="stuffed">Stuffed Crust</option>
+                            <option value="gluten-free">Gluten-Free Crust</option>
+                        </select><br>
+                
+
+               <!--pizza size-->
+                        <label for="size">Choose your pizza size:</label><br>
+                        
+                        <select id="size" name="size">
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                            <option value="extra-large">Extra Large</option>
+                        </select><br>
+                </fieldset>
+
+                <!--special instruction-->
+                <fieldset>
+                        <label for="specialInstructions">Special Instructions:</label><br>
+                        <textarea id="specialInstructions" name="specialInstructions" rows="4" cols="50" ></textarea><br><br>
+                </fieldset>
+
+                <!--number of pizza-->
+                <fieldset>
+                        <label for="quantity">Quantity:</label><br>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br><br>
             
-            
-            
-            
+                </fieldset>
+
+              <!--order selection delivery or take out-->
+             
+            <fieldset><br>
+                <legend> Order Type </legend>
+
+                <input type="radio" id="delivery" name="orderType" value="delivery" required>
+                <label for="delivery"> Delivery </label><br>
+                <input type="radio" id="takeout" name="orderType" value="takeout" required>
+                <label for="takeout"> Takeout </label><br>
+            </fieldset><br>
+
+            <!--submit and reset button-->
+            <input type="submit" value="Place Order">   
+            <input type="reset" value="Reset Form">
+        </fieldset>
+    </form>
     </main>
+    <footer>
+        <p>&copy; 2025 The Pizza Company. All rights reserved.</p>
+    </footer>
+</body>     
+</html>
