@@ -22,6 +22,7 @@ fieldset{
 legend{
     font-weight: bold;
     color: tomato;
+    
 }
 input[type=submit], input[type=reset]{
     background-color: tomato;

@@ -72,7 +72,7 @@
               
                  <!--pizza spicy level -->
             <fieldset>
-                <legend> Choose spice level: </legend>
+                <legend>Choose spice level:</legend>
 
                 <input type="radio" id="mild" name="spice" value ="mild">
                 <label for ="mild"> Mild </label> <br>
@@ -86,7 +86,7 @@
                    
                  <!--crust of pizza-->
                 <fieldset>
-                        <label for="crust">Choose your crust type:</label><br>
+                        <legend>Choose your crust type:</legend><br>
                         
                         <select id="crust" name="crust">
                             <option value="thin">Thin Crust</option>
@@ -94,10 +94,11 @@
                             <option value="stuffed">Stuffed Crust</option>
                             <option value="gluten-free">Gluten-Free Crust</option>
                         </select><br>
-                
+                </fieldset>
 
                  <!--pizza size-->
-                        <label for="size">Choose your pizza size:</label><br>
+                <fieldset>
+                        <legend>Pizza size:</legend> <br>
                         
                         <select id="size" name="size">
                             <option value="small">Small</option>
@@ -110,14 +111,14 @@
                  <!--special instruction-->
 
                 <fieldset>
-                        <label for="specialInstructions">Special Instructions:</label><br>
+                       <legend><label for="specialInstructions">Special Instructions:</label><br></legend> 
                         <textarea id="specialInstructions" name="specialInstructions" rows="4" cols="50" ></textarea><br><br>
                 </fieldset>
 
                   <!--number of pizza-->
 
                 <fieldset>
-                        <label for="quantity">Quantity:</label><br>
+                        <legend><label for="quantity">Quantity:</label><br></legend>
                         <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"><br><br>
             
                 </fieldset>
