@@ -1,0 +1,32 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+form{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid tomato;
+}
+fieldset{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+legend{
+    font-weight: bold;
+    color: tomato;
+}
+input[type=submit], input[type=reset]{
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
