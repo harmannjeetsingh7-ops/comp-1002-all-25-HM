@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    color: rgb(246, 255, 0);
+
+    background-image: url('images/dangal\ cover.jpg');
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Main title */
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 850;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 20px
+    color(#f7ff06e1)
+}
