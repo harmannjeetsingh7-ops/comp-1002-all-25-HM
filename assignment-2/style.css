@@ -5,7 +5,7 @@ body {
     background-color: #ffffff;
     color: rgb(254, 254, 254);
 
-    background-image: url('images/dangal\ cover.jpg');
+    background-image: url('images/dangal-cover.jpg');
     background-size: 80% auto;
     background-repeat: no-repeat;
     background-position: top center;
@@ -23,9 +23,7 @@ h1 {
     font-weight: 850;
     letter-spacing: 7px;
     margin-bottom: 10px;
-    text-shadow: 0 0 20px
-    color(#d05656e1)
-    
+    text-shadow: 0 0 20px#d05656e1
     
 }
 /* Tagline */
@@ -56,7 +54,7 @@ figure {
     color: hsl(0, 0%, 100%);
 }
 
-.promo-img {
+.movie-poster {
     width: 70%;
     border-radius: 8px;
     box-shadow: 0 0 25px rgb(20, 1, 1);
@@ -67,7 +65,7 @@ figcaption {
     margin-top: 8px;
 }
 /*credit text */
-.credit {
+ .credits {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 60px;
