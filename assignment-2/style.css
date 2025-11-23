@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    color: rgb(246, 255, 0);
+
+    background-image: url('images/wp4627618-dangal-wallpapers.jpg');
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 850;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 20px
+    color(#f7ff06e1)
+       
+}
+
+/* Tagline */
+h2 {
+    text-align: center;
+    font-weight: 550;
+    font-size: 1.6rem;
+    font-style: bold;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    text-shadow: 0 0 15px rgb(15, 59, 181);
+    color: #ffe312f4; opacity: 0.9;
+}
+
+/* Transparent description box */
+.description {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 20px;
+    border-radius: 70px;
+    margin-bottom: 90px;
+    color: #F8EEDC;;
+}
+
+/*Figure */
+figure {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.promo-img {
+    width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 25px black;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+/* Credits */
+.credits {
+    background: rgba(0, 0, 0, 0.45);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+    color: #fbfaf9;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Links */
+a {
+    color: #130101;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: khaki underline;
+}        
