@@ -4,7 +4,6 @@
 // IMPORTANT: Begin by adding a SCRIPT element to 'index.html' that refers to this EXTERNAL JavaScript File
 
 // STEP 1a: Wait until the DOM is ready to be manipulated
-
 // STEP 2a: Grab the UL for the image gallery and assign it to the variable 'gallery'
 
 // STEP 2b: Create an array composed of all the A (anchor) elements inside that UL, now referred to as 'gallery'
@@ -26,7 +25,7 @@
 // STEP 5c: Set the content of that paragraph to the value of the title attribute for the link clicked
 
 // STEP 3c: Cancel the default behaviour of each hyperlink (which is to follow the href)
-
+event.preventDefault();
 // STEP 3b: End the 'onclick' event anonymous function
 
 // STEP 2d: End the loop through the links array
